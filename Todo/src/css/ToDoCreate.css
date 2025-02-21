@@ -1,0 +1,24 @@
+div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input{
+width: 200px;
+height: 30px;
+padding: 3px;
+margin: 2px;
+outline: none;
+border: 0;
+border-radius: 10px;
+box-shadow: 0px 0px 15px 1px darkgray;
+    };
+    button{
+    background-color: purple;
+    height: 30px;
+    margin-top: 5px;
+    padding: 3px 15px 5px 15px;
+    }
+}
