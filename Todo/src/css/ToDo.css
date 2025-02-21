@@ -1,0 +1,35 @@
+.tdmaindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid darkgray;
+    margin: 5px;
+    padding: 3px;
+    width: 70%;
+    border-radius: 10px;
+    .content{
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     align-items: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        color :white;
+        font-size: 22px;
+        width: 20%;
+        .icon:hover{
+            color: darkorchid;
+        }
+    }
+    .icons:hover{
+        cursor: pointer;
+        
+    }
+}
+.tdmaindiv:hover{
+    border-color: gold;
+    cursor: default;
+}
