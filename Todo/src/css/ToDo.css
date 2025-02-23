@@ -19,7 +19,7 @@
         flex-direction: row;
         color :white;
         font-size: 22px;
-        width: 20%;
+        width: 45px;
         .icon:hover{
             color: darkorchid;
         }
